@@ -25,4 +25,8 @@ urlpatterns = [
     path('', include(('contents.urls', 'contents'), namespace='contents')),
     # verifications
     path('', include(('verifications.urls', 'verifications'), namespace='verifications')),
+    # oauth
+    path('', include(('oauth.urls', 'oauth'), namespace='oauth')),
+    # areas
+    path('', include(('areas.urls', 'areas'), namespace='areas')),
 ]

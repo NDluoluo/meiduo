@@ -126,3 +126,6 @@
 启用 Eventlet 池 
 
 celery -A celery_tasks.main worker -l info -P eventlet -c 1000
+
+默认账户： makelove 12345678  
+rabbitmq makelove 123456
